@@ -43,8 +43,7 @@ As developers, we’re excited to build this application because it blends techn
 | GET    | `/trending`               | Get trending hashtags                            |
 
 
-**Appendix**
-**Database Schemas**
+## Appendix: Database Schemas
 
 ### User
 ```js
@@ -55,7 +54,7 @@ As developers, we’re excited to build this application because it blends techn
   createdAt: Date
 }
 
-###Post
+Post
 {
   _id: ObjectId,
   author: ObjectId,
