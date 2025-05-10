@@ -54,7 +54,9 @@ As developers, we’re excited to build this application because it blends techn
   createdAt: Date
 }
 
-Post
+```
+##Post
+```js
 {
   _id: ObjectId,
   author: ObjectId,
