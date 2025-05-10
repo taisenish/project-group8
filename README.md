@@ -46,8 +46,8 @@ As developers, we’re excited to build this application because it blends techn
 **Appendix**
 **Database Schemas**
 
-**User**
-
+### User
+```js
 {
   _id: ObjectId,
   username: String,
@@ -55,7 +55,6 @@ As developers, we’re excited to build this application because it blends techn
   createdAt: Date
 }
 
-**Post**
 
 {
   _id: ObjectId,
@@ -73,9 +72,3 @@ As developers, we’re excited to build this application because it blends techn
   ],
   hashtags: [String]
 }
-
-
-
-
-
-
