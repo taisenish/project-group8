@@ -55,7 +55,7 @@ As developers, we’re excited to build this application because it blends techn
 }
 
 ```
-##Post
+Post
 ```js
 {
   _id: ObjectId,
