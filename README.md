@@ -46,7 +46,8 @@ As developers, we’re excited to build this application because it blends techn
 **Appendix**
 **Database Schemas**
 
-User
+**User**
+
 {
   _id: ObjectId,
   username: String,
@@ -54,16 +55,25 @@ User
   createdAt: Date
 }
 
-Post
+**Post**
+
 {
   _id: ObjectId,
-  author: ObjectId,           
+  author: ObjectId,
   content: String,
   createdAt: { type: Date, default: Date.now },
   upvotes: { type: Number, default: 0 },
-  downvotes: { type: Number, default: 0 }
-  comments: {type: String, default: “”}
+  downvotes: { type: Number, default: 0 },
+  comments: [
+    {
+      author: ObjectId,
+      text: String,
+      createdAt: Date
+    }
+  ],
+  hashtags: [String]
 }
+
 
 
 
